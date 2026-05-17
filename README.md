@@ -46,6 +46,14 @@ cd frontend
 npm run dev
 ```
 
+3. **Replay Mode (Optional):**
+If you want to simulate the race using recorded telemetry files (useful for post-race reviewing or debugging), set the following environment variables when starting the backend:
+```bash
+cd backend
+REPLAY_MODE=true REPLAY_FILE=replay_window_0000_0130.jsonl.gz node src/index.js
+```
+*Note: Make sure your compressed `.jsonl.gz` telemetry files are placed inside the `backend/replays/` folder.*
+
 ---
 
 <br/>
@@ -93,3 +101,11 @@ node src/index.js
 cd frontend
 npm run dev
 ```
+
+3. **Modo Replay (Opcional):**
+Se você deseja simular a corrida usando arquivos de telemetria gravados (útil para revisar a corrida ou testar localmente), defina as seguintes variáveis de ambiente ao iniciar o backend:
+```bash
+cd backend
+REPLAY_MODE=true REPLAY_FILE=replay_window_0000_0130.jsonl.gz node src/index.js
+```
+*Nota: Certifique-se de que seus arquivos `.jsonl.gz` comprimidos estejam na pasta `backend/replays/`.*

@@ -3,3 +3,5 @@ dist/
 .env
 .DS_Store
 backend/output.log
+backend/replays/*.jsonl
+backend/replays/*.gz
