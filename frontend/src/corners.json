@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Flugplatz" }, "geometry": { "type": "Point", "coordinates": [6.9583, 50.3475] } },
+    { "type": "Feature", "properties": { "name": "Schwedenkreuz" }, "geometry": { "type": "Point", "coordinates": [6.9650, 50.3550] } },
+    { "type": "Feature", "properties": { "name": "Fuchsröhre" }, "geometry": { "type": "Point", "coordinates": [6.9530, 50.3620] } },
+    { "type": "Feature", "properties": { "name": "Adenauer Forst" }, "geometry": { "type": "Point", "coordinates": [6.9440, 50.3700] } },
+    { "type": "Feature", "properties": { "name": "Wehrseifen" }, "geometry": { "type": "Point", "coordinates": [6.9400, 50.3770] } },
+    { "type": "Feature", "properties": { "name": "Bergwerk" }, "geometry": { "type": "Point", "coordinates": [6.9600, 50.3790] } },
+    { "type": "Feature", "properties": { "name": "Karussell" }, "geometry": { "type": "Point", "coordinates": [6.9850, 50.3700] } },
+    { "type": "Feature", "properties": { "name": "Hohe Acht" }, "geometry": { "type": "Point", "coordinates": [6.9950, 50.3720] } },
+    { "type": "Feature", "properties": { "name": "Brünnchen" }, "geometry": { "type": "Point", "coordinates": [7.0000, 50.3650] } },
+    { "type": "Feature", "properties": { "name": "Pflanzgarten" }, "geometry": { "type": "Point", "coordinates": [6.9950, 50.3550] } },
+    { "type": "Feature", "properties": { "name": "Schwalbenschwanz" }, "geometry": { "type": "Point", "coordinates": [6.9850, 50.3450] } },
+    { "type": "Feature", "properties": { "name": "Döttinger Höhe" }, "geometry": { "type": "Point", "coordinates": [6.9700, 50.3350] } }
+  ]
+}

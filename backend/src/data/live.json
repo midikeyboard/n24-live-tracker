@@ -1,0 +1,545 @@
+{
+  "RESULT": [
+    {
+      "STNR": "1",
+      "NAME": "Katsuta",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "1",
+      "LASTIMTIME": "1778968629404",
+      "SPEED": "229.0",
+      "S1SPEED": "229.0"
+    },
+    {
+      "STNR": "2",
+      "NAME": "Russell",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968648662",
+      "SPEED": "198.2",
+      "S6SPEED": "198.2"
+    },
+    {
+      "STNR": "3",
+      "NAME": "Perez",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "0",
+      "LASTIMTIME": "1778968694610",
+      "SPEED": "202.2",
+      "S0SPEED": "202.2"
+    },
+    {
+      "STNR": "4",
+      "NAME": "Russell",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968617582",
+      "SPEED": "195.6",
+      "S5SPEED": "195.6"
+    },
+    {
+      "STNR": "5",
+      "NAME": "Ocon",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "7",
+      "LASTIMTIME": "1778968671314",
+      "SPEED": "183.6",
+      "S7SPEED": "183.6"
+    },
+    {
+      "STNR": "6",
+      "NAME": "Piastri",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "7",
+      "LASTIMTIME": "1778968679929",
+      "SPEED": "235.2",
+      "S7SPEED": "235.2"
+    },
+    {
+      "STNR": "7",
+      "NAME": "Norris",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968708766",
+      "SPEED": "230.0",
+      "S6SPEED": "230.0"
+    },
+    {
+      "STNR": "8",
+      "NAME": "Sainz",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "0",
+      "LASTIMTIME": "1778968653297",
+      "SPEED": "232.9",
+      "S0SPEED": "232.9"
+    },
+    {
+      "STNR": "9",
+      "NAME": "Gomez",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968625837",
+      "SPEED": "227.4",
+      "S6SPEED": "227.4"
+    },
+    {
+      "STNR": "10",
+      "NAME": "Smith",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "3",
+      "LASTIMTIME": "1778968683497",
+      "SPEED": "187.5",
+      "S3SPEED": "187.5"
+    },
+    {
+      "STNR": "11",
+      "NAME": "Dupont",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968625788",
+      "SPEED": "250.7",
+      "S5SPEED": "250.7"
+    },
+    {
+      "STNR": "12",
+      "NAME": "Vettel",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968625458",
+      "SPEED": "189.9",
+      "S4SPEED": "189.9"
+    },
+    {
+      "STNR": "13",
+      "NAME": "Dupont",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "8",
+      "LASTIMTIME": "1778968626479",
+      "SPEED": "205.8",
+      "S8SPEED": "205.8"
+    },
+    {
+      "STNR": "14",
+      "NAME": "Norris",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "0",
+      "LASTIMTIME": "1778968703377",
+      "SPEED": "209.2",
+      "S0SPEED": "209.2"
+    },
+    {
+      "STNR": "15",
+      "NAME": "Dupont",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968655985",
+      "SPEED": "246.3",
+      "S5SPEED": "246.3"
+    },
+    {
+      "STNR": "16",
+      "NAME": "Hamilton",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968635355",
+      "SPEED": "217.2",
+      "S4SPEED": "217.2"
+    },
+    {
+      "STNR": "17",
+      "NAME": "Hamilton",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "7",
+      "LASTIMTIME": "1778968692473",
+      "SPEED": "254.4",
+      "S7SPEED": "254.4"
+    },
+    {
+      "STNR": "18",
+      "NAME": "Russell",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "7",
+      "LASTIMTIME": "1778968683651",
+      "SPEED": "242.2",
+      "S7SPEED": "242.2"
+    },
+    {
+      "STNR": "19",
+      "NAME": "Hamilton",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "1",
+      "LASTIMTIME": "1778968707902",
+      "SPEED": "190.1",
+      "S1SPEED": "190.1"
+    },
+    {
+      "STNR": "20",
+      "NAME": "Alonso",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968639419",
+      "SPEED": "248.0",
+      "S6SPEED": "248.0"
+    },
+    {
+      "STNR": "21",
+      "NAME": "Leclerc",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968660639",
+      "SPEED": "255.6",
+      "S5SPEED": "255.6"
+    },
+    {
+      "STNR": "22",
+      "NAME": "Verstappen",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "3",
+      "LASTIMTIME": "1778968677262",
+      "SPEED": "208.6",
+      "S3SPEED": "208.6"
+    },
+    {
+      "STNR": "23",
+      "NAME": "Perez",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968666195",
+      "SPEED": "225.9",
+      "S5SPEED": "225.9"
+    },
+    {
+      "STNR": "24",
+      "NAME": "Rossi",
+      "CLASSNAME": "SP9",
+      "LASTINTERMEDIATENUMBER": "1",
+      "LASTIMTIME": "1778968668791",
+      "SPEED": "258.4",
+      "S1SPEED": "258.4"
+    },
+    {
+      "STNR": "25",
+      "NAME": "Vettel",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "3",
+      "LASTIMTIME": "1778968632613",
+      "SPEED": "187.4",
+      "S3SPEED": "187.4"
+    },
+    {
+      "STNR": "26",
+      "NAME": "Gomez",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968673257",
+      "SPEED": "184.8",
+      "S6SPEED": "184.8"
+    },
+    {
+      "STNR": "27",
+      "NAME": "Kim",
+      "CLASSNAME": "SP9",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968702888",
+      "SPEED": "192.0",
+      "S5SPEED": "192.0"
+    },
+    {
+      "STNR": "28",
+      "NAME": "Ocon",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "0",
+      "LASTIMTIME": "1778968661172",
+      "SPEED": "199.7",
+      "S0SPEED": "199.7"
+    },
+    {
+      "STNR": "29",
+      "NAME": "Silva",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "1",
+      "LASTIMTIME": "1778968645514",
+      "SPEED": "199.1",
+      "S1SPEED": "199.1"
+    },
+    {
+      "STNR": "30",
+      "NAME": "Alonso",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "2",
+      "LASTIMTIME": "1778968616338",
+      "SPEED": "240.8",
+      "S2SPEED": "240.8"
+    },
+    {
+      "STNR": "31",
+      "NAME": "Muller",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "0",
+      "LASTIMTIME": "1778968698974",
+      "SPEED": "221.1",
+      "S0SPEED": "221.1"
+    },
+    {
+      "STNR": "32",
+      "NAME": "Kim",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968616141",
+      "SPEED": "195.4",
+      "S6SPEED": "195.4"
+    },
+    {
+      "STNR": "33",
+      "NAME": "Russell",
+      "CLASSNAME": "SP9",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968611871",
+      "SPEED": "216.4",
+      "S6SPEED": "216.4"
+    },
+    {
+      "STNR": "34",
+      "NAME": "Kim",
+      "CLASSNAME": "SP9",
+      "LASTINTERMEDIATENUMBER": "8",
+      "LASTIMTIME": "1778968670694",
+      "SPEED": "182.5",
+      "S8SPEED": "182.5"
+    },
+    {
+      "STNR": "35",
+      "NAME": "Ocon",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968664515",
+      "SPEED": "207.6",
+      "S5SPEED": "207.6"
+    },
+    {
+      "STNR": "36",
+      "NAME": "Perez",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "1",
+      "LASTIMTIME": "1778968641977",
+      "SPEED": "238.7",
+      "S1SPEED": "238.7"
+    },
+    {
+      "STNR": "37",
+      "NAME": "Leclerc",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968702511",
+      "SPEED": "182.1",
+      "S4SPEED": "182.1"
+    },
+    {
+      "STNR": "38",
+      "NAME": "Katsuta",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968697362",
+      "SPEED": "259.5",
+      "S6SPEED": "259.5"
+    },
+    {
+      "STNR": "39",
+      "NAME": "Kim",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "2",
+      "LASTIMTIME": "1778968615952",
+      "SPEED": "200.4",
+      "S2SPEED": "200.4"
+    },
+    {
+      "STNR": "40",
+      "NAME": "Rossi",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968623342",
+      "SPEED": "185.0",
+      "S4SPEED": "185.0"
+    },
+    {
+      "STNR": "41",
+      "NAME": "Perez",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968695636",
+      "SPEED": "220.4",
+      "S6SPEED": "220.4"
+    },
+    {
+      "STNR": "42",
+      "NAME": "Katsuta",
+      "CLASSNAME": "SP9",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968634209",
+      "SPEED": "196.3",
+      "S4SPEED": "196.3"
+    },
+    {
+      "STNR": "43",
+      "NAME": "Smith",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "3",
+      "LASTIMTIME": "1778968706475",
+      "SPEED": "255.2",
+      "S3SPEED": "255.2"
+    },
+    {
+      "STNR": "44",
+      "NAME": "Sainz",
+      "CLASSNAME": "SP9",
+      "LASTINTERMEDIATENUMBER": "3",
+      "LASTIMTIME": "1778968675265",
+      "SPEED": "223.4",
+      "S3SPEED": "223.4"
+    },
+    {
+      "STNR": "45",
+      "NAME": "Gomez",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "2",
+      "LASTIMTIME": "1778968630456",
+      "SPEED": "235.4",
+      "S2SPEED": "235.4"
+    },
+    {
+      "STNR": "46",
+      "NAME": "Piastri",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968628634",
+      "SPEED": "181.0",
+      "S4SPEED": "181.0"
+    },
+    {
+      "STNR": "47",
+      "NAME": "Ocon",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968633400",
+      "SPEED": "235.7",
+      "S5SPEED": "235.7"
+    },
+    {
+      "STNR": "48",
+      "NAME": "Verstappen",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "8",
+      "LASTIMTIME": "1778968618912",
+      "SPEED": "192.2",
+      "S8SPEED": "192.2"
+    },
+    {
+      "STNR": "49",
+      "NAME": "Ocon",
+      "CLASSNAME": "SP9",
+      "LASTINTERMEDIATENUMBER": "2",
+      "LASTIMTIME": "1778968644395",
+      "SPEED": "233.0",
+      "S2SPEED": "233.0"
+    },
+    {
+      "STNR": "50",
+      "NAME": "Vettel",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968671503",
+      "SPEED": "188.6",
+      "S4SPEED": "188.6"
+    },
+    {
+      "STNR": "51",
+      "NAME": "Alonso",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968663526",
+      "SPEED": "217.7",
+      "S4SPEED": "217.7"
+    },
+    {
+      "STNR": "52",
+      "NAME": "Norris",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968680111",
+      "SPEED": "226.0",
+      "S6SPEED": "226.0"
+    },
+    {
+      "STNR": "53",
+      "NAME": "Piastri",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "0",
+      "LASTIMTIME": "1778968634269",
+      "SPEED": "243.4",
+      "S0SPEED": "243.4"
+    },
+    {
+      "STNR": "54",
+      "NAME": "Hamilton",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968672075",
+      "SPEED": "196.3",
+      "S4SPEED": "196.3"
+    },
+    {
+      "STNR": "55",
+      "NAME": "Sainz",
+      "CLASSNAME": "TCR",
+      "LASTINTERMEDIATENUMBER": "8",
+      "LASTIMTIME": "1778968647547",
+      "SPEED": "216.6",
+      "S8SPEED": "216.6"
+    },
+    {
+      "STNR": "56",
+      "NAME": "Vettel",
+      "CLASSNAME": "SP10",
+      "LASTINTERMEDIATENUMBER": "8",
+      "LASTIMTIME": "1778968647722",
+      "SPEED": "245.1",
+      "S8SPEED": "245.1"
+    },
+    {
+      "STNR": "57",
+      "NAME": "Alonso",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968652585",
+      "SPEED": "244.6",
+      "S5SPEED": "244.6"
+    },
+    {
+      "STNR": "58",
+      "NAME": "Muller",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "5",
+      "LASTIMTIME": "1778968634901",
+      "SPEED": "191.6",
+      "S5SPEED": "191.6"
+    },
+    {
+      "STNR": "59",
+      "NAME": "Gomez",
+      "CLASSNAME": "CUP2",
+      "LASTINTERMEDIATENUMBER": "6",
+      "LASTIMTIME": "1778968642784",
+      "SPEED": "186.2",
+      "S6SPEED": "186.2"
+    },
+    {
+      "STNR": "60",
+      "NAME": "Sainz",
+      "CLASSNAME": "V2T",
+      "LASTINTERMEDIATENUMBER": "4",
+      "LASTIMTIME": "1778968647418",
+      "SPEED": "207.1",
+      "S4SPEED": "207.1"
+    }
+  ],
+  "TOD": "1778968711778"
+}
