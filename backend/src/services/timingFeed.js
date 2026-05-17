@@ -1,18 +1,38 @@
 const EventEmitter = require('events');
 const WebSocket = require('ws');
+const fs = require('fs');
+const path = require('path');
+const recorder = require('./recorder');
 const sectors = require('../data/sectors.json');
 
 class TimingFeed extends EventEmitter {
   constructor() {
     super();
     this.carStates = {};
-    // Fallback speeds if real speed is 0 or missing
     this.fallbackSpeeds = {
       'SP 9': 160,
       'Cup 2': 145,
       'TCR': 135,
       'default': 140
     };
+    this.currentWeather = { icon: '☀️', air: '18°C', track: '24°C' };
+    this.fetchWeather();
+    setInterval(() => this.fetchWeather(), 10 * 60 * 1000); // Every 10 min
+  }
+
+  async fetchWeather() {
+    try {
+      const res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=50.3341&longitude=6.9427&current_weather=true');
+      const data = await res.json();
+      const temp = data.current_weather.temperature;
+      this.currentWeather = {
+        icon: data.current_weather.weathercode <= 3 ? '☀️' : '☁️',
+        air: `${Math.round(temp)}°C`,
+        track: `${Math.round(temp + 6)}°C`
+      };
+    } catch (e) {
+      console.error('Failed to fetch weather:', e);
+    }
   }
 
   processLivePayload(payload) {
@@ -122,7 +142,12 @@ class TimingFeed extends EventEmitter {
         }
         if (payload.RESULT) {
           console.log(`Received ${payload.RESULT.length} cars from Live Timing.`);
-          console.log("CARS:", payload.RESULT.map(c => c.STNR + ":" + c.LASTINTERMEDIATENUMBER).join(", ")); this.processLivePayload(payload);
+          console.log("CARS:", payload.RESULT.map(c => c.STNR + ":" + c.LASTINTERMEDIATENUMBER).join(", ")); 
+          
+          // Trigger the recorder logic
+          recorder.record(payload, this.currentWeather);
+
+          this.processLivePayload(payload);
         }
       } catch (err) {
         // Ignore parse errors on ping/pong or other packets

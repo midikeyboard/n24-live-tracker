@@ -17,6 +17,7 @@ function App() {
   const [code60Sectors, setCode60Sectors] = useState([]);
   const [leaderboardMode, setLeaderboardMode] = useState(0);
   const [nowTime, setNowTime] = useState(Date.now());
+  const [weather, setWeather] = useState({ icon: '☀️', air: '18°C', track: '24°C' });
 
   useEffect(() => {
     socket.on('telemetry', (data) => {
@@ -25,6 +26,8 @@ function App() {
       } else {
         setCars(data.positions);
         setCode60Sectors(data.code60Sectors);
+        if (data.serverTime) setNowTime(data.serverTime);
+        if (data.weather) setWeather(data.weather);
       }
     });
 
@@ -35,10 +38,10 @@ function App() {
     const clockInterval = setInterval(() => {
       setNowTime(Date.now());
     }, 1000);
-
     return () => {
       socket.off('telemetry');
       clearInterval(modeInterval);
+      // clockInterval removed as we rely on serverTime, but fallback if backend doesn't send
       clearInterval(clockInterval);
     };
   }, []);
@@ -290,9 +293,9 @@ function App() {
               <div>
                 <div className="text-on-surface-variant text-[10px] font-label-caps uppercase">Weather</div>
                 <div className="text-white text-sm font-body-fixed flex items-center gap-1">
-                  ☀️ 18°C
+                  {weather.icon} {weather.air}
                 </div>
-                <div className="text-on-surface-variant text-xs mt-0.5">Track: 24°C</div>
+                <div className="text-on-surface-variant text-xs mt-0.5">Track: {weather.track}</div>
               </div>
             </div>
           </div>

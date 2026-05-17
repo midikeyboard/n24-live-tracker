@@ -6,7 +6,7 @@ const fs = require('fs');
 
 class Engine {
   constructor() {
-    this.trackGeoJSON = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../../nurburgring_geojson.json'), 'utf-8'));
+    this.trackGeoJSON = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', '..', 'frontend', 'src', 'nurburgring_geojson.json'), 'utf8'));
     this.trackLine = this.trackGeoJSON.features ? this.trackGeoJSON.features[0] : this.trackGeoJSON;
     this.trackLengthKm = turf.length(this.trackLine, { units: 'kilometers' });
     
