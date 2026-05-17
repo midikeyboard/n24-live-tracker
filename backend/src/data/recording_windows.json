@@ -1,0 +1,6 @@
+[
+  { "start": 0.0, "end": 1.5, "name": "window_0000_0130" },
+  { "start": 1.5, "end": 3.0, "name": "window_0130_0300" },
+  { "start": 6.0, "end": 7.5, "name": "window_0600_0730" },
+  { "start": 8.5, "end": 10.5, "name": "window_0830_1030" }
+]

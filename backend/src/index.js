@@ -21,8 +21,13 @@ app.get('/', (req, res) => {
   res.send('N24 Live Tracker Backend is running.');
 });
 
-// Start the mock timing feed
-timingFeed.start();
+// Start the feed or replay based on environment
+if (process.env.REPLAY_MODE === 'true') {
+  const replayPlayer = require('./services/replayPlayer');
+  replayPlayer.start(process.env.REPLAY_FILE);
+} else {
+  timingFeed.start();
+}
 
 io.on('connection', (socket) => {
   console.log('Client connected:', socket.id);
@@ -37,8 +42,12 @@ io.on('connection', (socket) => {
 
 // High-frequency telemetry broadcast loop
 setInterval(() => {
-  const positions = engine.getInterpolatedPositions();
-  io.emit('telemetry', positions);
+  io.emit('telemetry', {
+    positions: engine.getInterpolatedPositions().positions,
+    code60Sectors: timingFeed.getCode60Sectors(),
+    serverTime: Date.now(),
+    weather: timingFeed.currentWeather || { icon: '☀️', air: '18°C', track: '24°C' }
+  });
 }, 200); // 5Hz update rate
 
 const PORT = process.env.PORT || 3001;
