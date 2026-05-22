@@ -15,8 +15,8 @@ nav_order: 2
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/midikeyboard/n24-live-tracker-docker.git
-cd n24-live-tracker-docker
+git clone https://github.com/midikeyboard/n24-live-tracker.git
+cd n24-live-tracker
 ```
 
 ## Step 2: Configure Environment Variables
