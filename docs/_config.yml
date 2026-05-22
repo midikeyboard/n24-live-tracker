@@ -7,7 +7,7 @@ favicon_ico: "/docs/assets/favicon.ico"
 
 # Site settings
 url: https://midikeyboard.github.io
-baseurl: "/n24-live-tracker-docker"     # ← Change only if your repo name changes
+baseurl: "/n24-live-tracker"     # ← Change only if your repo name changes
 
 # Appearance
 color_scheme: dark
@@ -21,7 +21,7 @@ toc: true
 
 # Links
 aux_links:
-  GitHub Repository: https://github.com/midikeyboard/n24-live-tracker-docker
+  GitHub Repository: https://github.com/midikeyboard/n24-live-tracker
 
 
 # Exclude (optional)
