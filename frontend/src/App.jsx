@@ -13,6 +13,7 @@ function App() {
   const [cars, setCars] = useState([]);
   const [filter, setFilter] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [enabledClasses, setEnabledClasses] = useState(import.meta.env.VITE_ENABLED_CLASSES.split(',').map(c => c.trim()));
   const [hoveredCarId, setHoveredCarId] = useState(null);
   const [code60Sectors, setCode60Sectors] = useState([]);
   const [leaderboardMode, setLeaderboardMode] = useState(0);
@@ -46,8 +47,7 @@ function App() {
     };
   }, []);
 
-  const availableClasses = ['All', ...new Set(cars.map(c => c.class))].filter(Boolean).slice(0, 6);
-
+  const availableClasses = ['All', ...new Set(cars.map(c => c.class))].filter(Boolean).filter(c => c === 'All' || enabledClasses.includes(c));
   const filteredCars = cars.filter(car => {
     if (searchQuery) {
       const query = searchQuery.toLowerCase();
