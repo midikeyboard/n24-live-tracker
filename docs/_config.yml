@@ -1,0 +1,32 @@
+title: N24 Live Tracker
+description: Documentation for N24 Live Tracker Docker project
+
+# Theme
+remote_theme: just-the-docs/just-the-docs
+favicon_ico: "/docs/assets/favicon.ico"
+
+# Site settings
+url: https://midikeyboard.github.io
+baseurl: "/n24-live-tracker-docker"     # ← Change only if your repo name changes
+
+# Appearance
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+
+# Navigation & Sidebar
+nav_sort: case_insensitive
+has_toc: true
+toc: true
+
+# Links
+aux_links:
+  GitHub Repository: https://github.com/midikeyboard/n24-live-tracker-docker
+
+
+# Exclude (optional)
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- .gitignore
