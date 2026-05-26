@@ -5,7 +5,7 @@ nav_order: 3
 ---
 
 # Embedding a YouTube Stream
-
+![embed preview](/assets/EMBED_PREVIEW.png)
 ## Initial set-up
 
 1. View the video's embed code via[ this guide.](https://support.google.com/youtube/answer/171780?hl=en)
@@ -19,4 +19,5 @@ nav_order: 3
    ```bash
    docker-compose up -d
    ```
+
 #### Without a STREAMURL value, The stream window will not display.
