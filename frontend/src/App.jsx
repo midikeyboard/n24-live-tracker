@@ -115,7 +115,7 @@ function App() {
         </nav>
       </header>
 
-      <main className="flex-grow relative w-full h-screen pt-[60px] md:pt-[72px] pb-[80px] md:pb-0 overflow-hidden">
+      <main className="flex-grow relative w-full h-screen pb-[80px] md:pb-0 overflow-hidden">
         <Map
           initialViewState={{
             longitude: 6.9475,
