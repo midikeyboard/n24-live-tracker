@@ -15,7 +15,7 @@ nav_order: 2
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/midikeyboard/n24-live-tracker.git
+git clone https://github.com/arthurbes/n24-live-tracker.git
 cd n24-live-tracker
 ```
 

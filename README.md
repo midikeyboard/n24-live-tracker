@@ -3,7 +3,7 @@
 
 This project is based on the standalone [n24-live-tracker](https://github.com/arthurbes/n24-live-tracker) made by [arthurbes](https://github.com/arthurbes)
 
-## [Read the documentation here](https://midikeyboard.github.io/n24-live-tracker/)
+## [Read the documentation here](https://arthurbes.github.io/n24-live-tracker/)
 
 
 A professional, real-time live tracking telemetry dashboard for the **Nürburgring 24h (N24)** endurance race. 
@@ -35,7 +35,7 @@ This system connects directly to the official Live Timing Azure WebSocket feed, 
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/midikeyboard/n24-live-tracker.git
+git clone https://github.com/arthurbes/n24-live-tracker.git
 cd n24-live-tracker
 ```
 

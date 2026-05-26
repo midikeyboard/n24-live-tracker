@@ -6,7 +6,7 @@ remote_theme: just-the-docs/just-the-docs
 favicon_ico: "/docs/assets/favicon.ico"
 
 # Site settings
-url: https://midikeyboard.github.io
+url: https://arthurbes.github.io
 baseurl: "/n24-live-tracker"     # ← Change only if your repo name changes
 
 # Appearance
@@ -21,7 +21,7 @@ toc: true
 
 # Links
 aux_links:
-  GitHub Repository: https://github.com/midikeyboard/n24-live-tracker
+  GitHub Repository: https://github.com/arthurbes/n24-live-tracker
 
 
 # Exclude (optional)

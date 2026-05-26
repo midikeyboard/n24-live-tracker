@@ -300,6 +300,18 @@ function App() {
             </div>
           </div>
         </div>
+        {/* Stream Overlay */}
+        {import.meta.env.VITE_STREAMURL && import.meta.env.VITE_STREAMURL.trim() !== '' && (
+        <div className="absolute bottom-10 right-margin-desktop z-10 w-[80vw] md:w-[20vw] aspect-video bg-black/80 border border-white/20 rounded-lg overflow-hidden shadow-lg">
+         <iframe
+            src={import.meta.env.VITE_STREAMURL}
+            title="Live Stream"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          ></iframe>
+        </div>
+        )}
       </main>
 
       <div className="hidden md:flex fixed top-24 left-1/2 -translate-x-1/2 z-20 items-center gap-2 bg-surface-container-low/60 backdrop-blur-md p-1.5 rounded-full border border-white/10 shadow-lg">
